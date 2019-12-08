@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/9a38f89d73.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>AcomoEye</title>
+  </head>
+  <body>
+    <nav class="menu-wrap">
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger">
+        <div></div>
+      </div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="#showcase">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header id="showcase" class="showcase">
+      <div class="container showcase-container">
+        <h1>Welcome to</h1>
+        <img src="./img/acomo.png" alt="acomoeye logo" />
+      </div>
+    </header>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="title">
+          <h2>About Us</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-box">
+            <div class="about-img">
+              <img src="./img/vr.jpg" alt="" />
+            </div>
+            <div class="about-txt">
+              <h3>What we do?</h3>
+              <div class="line"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                consequuntur illo explicabo nobis neque debitis, cupiditate
+                consectetur quis assumenda sequi beatae! Ad optio fugiat quas
+                cupiditate molestias aspernatur necessitatibus? Voluptas,
+                veritatis magni. Sint architecto modi culpa. Impedit, cumque
+                neque. Dolorem quas ad nisi aut ea tenetur vel iusto, nobis
+                illum.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-box">
+            <div class="about-img">
+              <img src="./img/vr.jpg" alt="" />
+            </div>
+            <div class="about-txt">
+              <h3 class="align-center">What we do?</h3>
+              <div class="line"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                consequuntur illo explicabo nobis neque debitis, cupiditate
+                consectetur quis assumenda sequi beatae! Ad optio fugiat quas
+                cupiditate molestias aspernatur necessitatibus? Voluptas,
+                veritatis magni. Sint architecto modi culpa. Impedit, cumque
+                neque. Dolorem quas ad nisi aut ea tenetur vel iusto, nobis
+                illum.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-box">
+            <div class="about-img">
+              <img src="./img/vr.jpg" alt="" />
+            </div>
+            <div class="about-txt">
+              <h3 class="align-center">What we do?</h3>
+              <div class="line"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                consequuntur illo explicabo nobis neque debitis, cupiditate
+                consectetur quis assumenda sequi beatae! Ad optio fugiat quas
+                cupiditate molestias aspernatur necessitatibus? Voluptas,
+                veritatis magni. Sint architecto modi culpa. Impedit, cumque
+                neque. Dolorem quas ad nisi aut ea tenetur vel iusto, nobis
+                illum.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+
+    <section id="team" class="team">
+      <div class="container">
+        <div class="title white">
+          <h2>Our Team</h2>
+          <div class="line"></div>
+        </div>
+        <div class="team-grid white">
+          <div class="team-member">
+            <div class="team-img">
+              <img src="./img/kamil.jpg" alt="acomoeye kamil">
+            </div>
+            <div class="team-info">
+              <h4>Kamil</h4>
+              <div class="role">
+                CEO
+              </div>
+              <div class="email">example.111222@example.com</div>
+              <div class="linkedin">
+                <a href="https://www.linkedin.com/" target="_blank"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/wiktor-drozda/" target="_blank"
+                ></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="team-member white">
+            <div class="team-img">
+              <img src="./img/daniel.jpg" alt="acomoeye kamil">
+            </div>
+            <div class="team-info">
+              <h4>Daniel</h4>
+              <div class="role">
+                Engineer/Resercher
+              </div>
+              <div class="email">example.111222@example.com</div>
+              <div class="linkedin">
+                <a href="https://www.linkedin.com/" target="_blank"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/wiktor-drozda/" target="_blank"
+                ></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="title">
+          <h2>Contact Us</h2>
+          <div class="line"></div>
+        </div>
+        <div class="contact-form">
+          <form method="POST"  data-netlify="true" data-netlify-recaptcha="true">
+            <div class="form-inputs">
+              <input type="text" class="input-text input-name" name="name" placeholder="Name" required>
+              <input type="text" class="input-text input-surname" name="surname" placeholder="Surname" required>
+              <input type="email" class="input-text input-email" name="email" placeholder="Email" required>
+              <input type="text" class="input-text input-subject" name="subject" placeholder="Subject" required>
+              <textarea name="message" class="input-text input-message" placeholder="Enter Your Message Here" required></textarea>
+            </div>
+            <div class="recaptcha">
+              <div class="recaptcha-box" data-netlify-recaptcha="true" ></div>
+            </div>
+            <button type="submit" class="btn-submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <div class="footer-container">
+        <p class="white">&copy; AcomoEye 2019</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

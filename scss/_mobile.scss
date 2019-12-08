@@ -1,0 +1,84 @@
+@media (max-width: 780px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .showcase {
+    &:before {
+      background-attachment: scroll;
+    }
+
+    &-container {
+      img {
+        width: 70%;
+      }
+    }
+  }
+
+  .about {
+    &-box {
+      width: 90%;
+      margin: 5%;
+
+      &:last-child {
+        margin: 5%;
+      }
+    }
+  }
+}
+
+@media (max-width: 670px) {
+  .team {
+    &-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 100px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .showcase {
+    &-container {
+      img {
+        width: 80%;
+      }
+    }
+  }
+
+  .menu-wrap {
+    .toggler {
+      width: 180px;
+      height: 180px;
+    }
+
+    .hamburger {
+      width: 180px;
+      height: 180px;
+    }
+  }
+
+  .contact {
+    &-form {
+      margin: 0 5% 0 5%;
+
+      .form-inputs {
+        grid-template-areas: 
+        "name name"
+        "surname surname"
+        "email email"
+        "subject subject"
+        "message message";
+      }
+    }
+
+    .btn-submit {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
