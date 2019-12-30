@@ -127,6 +127,19 @@ h4 {
 
     p {
       font-size: 17px;
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    ul {
+      padding-left: 20px;
+
+      li {
+        margin-bottom: 5px;
+      }
     }
   }
 }
